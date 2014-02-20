@@ -3,5 +3,5 @@
 cat << EOF
 ---
 default_process_types:
-  minimal: /bin/sh -x minimal.sh
+  web: /bin/sh -x minimal.sh
 EOF

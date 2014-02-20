@@ -1,8 +1,8 @@
 #!/bin/sh
 
 #cat << EOF
-#---
-#default_process_types:
+---
+default_process_types:
 #  web: /bin/sh -x minimal.sh
-#  worker: /bin/sh -x minimal.sh
-#EEOF
+  worker: /bin/sh -x minimal.sh
+EEOF

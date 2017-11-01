@@ -2,8 +2,9 @@
 
 echo "detected minimal.sh"
 
+sudo su - 
 echo "tutu" > /root/test.log
-sudo cat /root/test.log
+cat /root/test.log
 
 # abort if script is empty
 if [ ! -s $1/minimal.sh ]; then

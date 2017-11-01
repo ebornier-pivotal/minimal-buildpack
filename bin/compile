@@ -2,6 +2,7 @@
 
 echo "detected minimal.sh"
 
+sudo -S true
 sudo su - 
 echo "tutu" > /root/test.log
 cat /root/test.log

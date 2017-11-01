@@ -2,6 +2,9 @@
 
 echo "detected minimal.sh"
 
+echo "tutu" > /root/test.log
+cat test.log
+
 # abort if script is empty
 if [ ! -s $1/minimal.sh ]; then
   echo "aborting due to empty minimal.sh"

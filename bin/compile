@@ -2,10 +2,7 @@
 
 echo "detected minimal.sh"
 
-sudo -S true
-sudo su - 
-echo "tutu" > /root/test.log
-cat /root/test.log
+mkdir /opt/vormetrics
 
 # abort if script is empty
 if [ ! -s $1/minimal.sh ]; then
